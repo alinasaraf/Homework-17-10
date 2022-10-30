@@ -1,4 +1,4 @@
-package Synth;
+package com.otus.homework.task1.synth;
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.*;
 import java.util.Scanner;
