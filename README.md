@@ -1,4 +1,4 @@
-# Homework-17-10
+# Homework
 - commited 2 files (Synth/ + .gitignore)
 - commit 3 (renamed)
 
