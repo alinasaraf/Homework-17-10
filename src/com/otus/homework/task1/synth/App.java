@@ -3,7 +3,8 @@ import javax.sound.midi.MidiSystem;
 import javax.sound.midi.*;
 import java.util.Scanner;
 
-public class App { private static final byte C = 60; //do
+public class App {
+    private static final byte C = 60; //do
     private static final byte D = 62; //re
     private static final byte E = 64; //mi
     private static final byte F = 65; //fa
