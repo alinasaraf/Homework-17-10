@@ -1,6 +1,8 @@
 package com.otus.homework.task2.arrays;
 import java.util.Scanner;
 public class Test {
+
+    // переписать в стиле ООП (классы)
     public static void main(String[] args) {
         int correctCount = 0, wrongCount = 0;
 
@@ -10,16 +12,22 @@ public class Test {
         questions[2] = "We ... take care of your mental health. ";
 
         String[][] answerOptions = new String[3][];
+
         String[] answer1 = new String[3];
         answer1[0] = "leave";
         answer1[1] = "stay";
         answer1[2] = "relax";
+
         answerOptions[0] = answer1;
+
+
         String[] answer2 = new String[3];
         answer2[0] = "get down";
         answer2[1] = "get on";
         answer2[2] = "come on";
+
         answerOptions[1] = answer2;
+
         answerOptions[2] = new String[]{
                 "must" , "forget" , "should"
 
@@ -47,6 +55,6 @@ public class Test {
             System.out.println();
         }
 
-        System.out.println("Result: correct " + correctCount + ", incorrect " + wrongCount);
+        System.out.println("Result: correct " + correctCount + "\n"+ "incorrect " + wrongCount);
     }
 }
