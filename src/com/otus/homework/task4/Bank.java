@@ -40,22 +40,5 @@ public class Bank {
     public static void main(String[] args) {
 
 
-        /*if (frida.equals(frida2)) { // str != str2 / str == str3 в примитивах нету методов
-            System.out.println("it's correct");
-        } else {
-            System.out.println("it's incorrect");
-        }
-
-        //map.entrySet();
-
-
-        for (int i = 0; i < map.get(frida2).size();i++){ // i < fridaAccounts.size()
-            System.out.println(map.get(frida2).get(i).id); //(fridaAccounts.get(i).id)
-        }
-    }// узнать есть ли этот аккаунт в списке/массиве
-
-    //https://www.baeldung.com/java-map-entry
-
-         */
     }
 }
